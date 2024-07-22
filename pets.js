@@ -24,9 +24,9 @@ document
 
     const pet = new Pet(petnamevalue, ownernamevalue, speciesvalue, breedvalue);
     
-    pets.forEach((pet) => {
-      if (pet.sameowner(pet))
-        alert(`anche ${pet.petName} è dello stesso proprietario`);
+    pets.forEach((el) => {
+      if (pet.sameowner(el))
+        alert(`anche ${el.petName} è dello stesso proprietario`);
     });
 
     pets.push(pet);
